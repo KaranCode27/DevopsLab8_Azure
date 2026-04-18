@@ -12,7 +12,7 @@ def add():
     return {"result": a + b}
 
 @app.route('/sub')
-def add():
+def sub():
     a = int(request.args.get('a', 10))
     b = int(request.args.get('b', 3))
     return {"result": a - b}
